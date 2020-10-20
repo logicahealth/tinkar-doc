@@ -1,6 +1,6 @@
 # tinkar-doc
 
-todo
+This repository will contain all relevant documentation (in DocBook) for the HL7 Terminology Knowledge Standard (aka TINKAR)​.
 
 # License
 
