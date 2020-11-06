@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../docbook-customization/src/docbkx-stylesheet/common/komet.rnc" type="application/relax-ng-compact-syntax"?>
+<chapter xmlns="http://docbook.org/ns/docbook" xmlns:xi="http://www.w3.org/2001/XInclude"
+    xmlns:xlink="http://www.w3.org/1999/xlink" version="5.1">
+    <?oxy_comment_start author="jcoyle" timestamp="20190622T100303-0400" comment="I think this chapter should be restructured with the Editorial rules or groups of editorial rules forming a section, and then the examples used within. Currently there is an old itemizedList that stretches throughout the entire chapter that is being used to separate things. Thus, you end up with a bullet item that seems like it is floating in space." flag="done"?><?oxy_comment_end?>
+    <title>Business Requirements Chapter Title</title>
+</chapter>

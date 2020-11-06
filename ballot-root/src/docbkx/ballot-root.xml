@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-model href="../../../docbook-customization/src/docbkx-stylesheet/common/komet.rnc" type="application/relax-ng-compact-syntax"?>
+<book xmlns="http://docbook.org/ns/docbook" xmlns:xi="http://www.w3.org/2001/XInclude"
+  xmlns:xlink="http://www.w3.org/1999/xlink" version="5.1">
+
+  <preface>
+    <title>Intended Audience</title>
+    <para><glossterm baseform="Analysis Normal Form">TINKAR Ballot</glossterm> First paragraph.</para>
+    <para> Second paragraph. </para>
+    <para>Third paragraph.</para>
+  </preface>
+  <preface>
+    <title>Acknowledgements</title>
+    <para> The project team would like to acknowledge the leadership and guidance from: </para>
+    <para>
+      <itemizedlist>
+        <listitem>
+          <para><emphasis role="bold">Keith E. Campbell, MD, PhD</emphasis> - Director of
+            Informatics Architecture, Knowledge Based Systems, Veterans Health Administration</para>
+        </listitem>
+      </itemizedlist>
+    </para>
+    <para>Contributions from the following people:</para>
+    <para>
+      <informaltable frame="none" rowsep="0" colsep="0">
+        <tgroup cols="2" align="left">
+          <colspec colname="c1" colnum="1" colwidth="1*"/>
+          <colspec colname="c2" colnum="2" colwidth="1*"/>
+          <tbody>
+            <row>
+              <entry>
+                <para>&#x2003;&#x2003;&#x2003;Keith Campbell<superscript>1</superscript></para>
+              </entry>
+              <entry>
+                <para>Raja A. Cholan<superscript>2</superscript></para>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </informaltable>
+    </para>
+    <para> </para>
+    <para/>
+    <para/>
+    <para/>
+    <para><superscript>1</superscript>Veterans Health Administration;
+      <superscript>2</superscript>Deloitte Consulting LLP; <superscript>3</superscript>JP Systems,
+      Inc; <superscript>4</superscript>HL7 **** Work Group; <superscript>5</superscript></para>
+    <para/>
+    <para/>
+    <para>This work was primarily funded by the Veterans Health Administration Clinical Informatics
+      and Data Management Office. This work would not have been possible without the support of
+      Jonathan Nebeker and Steven Brown.</para>
+
+  </preface>
+  <toc/>
+
+<!--  Abbreviated Glossary-->
+  <xi:include
+          href="../../target/extracted-dependencies/io.solor.tinkar-doc-submission/abbreviated-glossary/abbreviated-glossary.xml"
+          xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<!--  1.	Introduction-->
+  <xi:include
+          href="../../target/extracted-dependencies/io.solor.tinkar-doc-submission/introduction/introduction.xml"
+          xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<!--  2.	Business requirements / User stories / Examples of Pain Points-->
+  <xi:include
+          href="../../target/extracted-dependencies/io.solor.tinkar-doc-submission/business-requirements/business-requirements.xml"
+          xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<!--  3.	Tinkar Reference Model-->
+  <xi:include
+          href="../../target/extracted-dependencies/io.solor.tinkar-doc-submission/tinkar-reference-model/tinkar-reference-model.xml"
+          xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<!--  4.	Gap Analysis with other models (CTS2, FHIR R4, HL7v2, EVS, and others TBD)-->
+  <xi:include
+          href="../../target/extracted-dependencies/io.solor.tinkar-doc-submission/gap-analysis/gap-analysis.xml"
+          xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<!--  5.	Pragmatic usage and next steps (Reference Implementation)-->
+  <xi:include
+          href="../../target/extracted-dependencies/io.solor.tinkar-doc-submission/reference-implementation/reference-implementation.xml"
+          xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<!--  6.	Implications – Improving data accuracy-->
+  <xi:include
+          href="../../target/extracted-dependencies/io.solor.tinkar-doc-submission/implications/implications.xml"
+          xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<!--  7.	Conclusion-->
+  <xi:include
+          href="../../target/extracted-dependencies/io.solor.tinkar-doc-submission/conclusion/conclusion.xml"
+          xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<!--  8.	Complete Glossary-->
+  <xi:include
+          href="../../target/extracted-dependencies/io.solor.tinkar-doc-submission/complete-glossary/complete-glossary.xml"
+          xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<!--  9.	Appendices-->
+  <xi:include
+          href="../../target/extracted-dependencies/io.solor.tinkar-doc-submission/appendices/appendices.xml"
+          xmlns:xi="http://www.w3.org/2001/XInclude"/>
+</book>
